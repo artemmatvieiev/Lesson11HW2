@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Example</title>
+		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+		<div class="gridContainer">
+			<div id="menu">	
+				<div id="playingField">
+					<span id="turnTimer"></span>
+					<div id="square"></div>
+					<div id="help"></div>
+				</div>
+				<div id="buttons">
+					<button data-type="start" id="start" class="button">
+						Начать игру
+					</button>
+					<button data-type="statistics" id="statistics" class="button">
+						Просмотр статистики
+					</button>
+					<button data-type="clearStatistics" id="clearStatistics" class="button">
+						Очистить статистику
+					</button>
+				</div>
+				<div id="stat">
+					<button id="returnMenu" class="button">Перейти к меню</button>
+					<div id="allStatistics"></div>		
+				</div>
+			</div>
+		</div>
+		<script src="js/class.js"></script>
+		<script src="js/const.js"></script>
+		<script src="js/user.js"></script>
+	</body>
+</html>
